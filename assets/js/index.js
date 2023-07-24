@@ -3,9 +3,20 @@ const inquirer = require('inquirer');
 
 inquirer
     .prompt({
-        question: ''
+        question: 'What is your name?', answer
     })
-
+    .prompt({
+        question: 'Where are you located?', answer
+    })
+    .prompt({
+        question: 'Tell me about yourself...', answer
+    })
+    .prompt({
+        question: 'What is your linkedin URL?', answer
+    })
+    .prompt({
+        question: 'What is your GitHub URL?', answer
+    })
     //use a series of prompts
         //name
         //location
